@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2? family= Labrada:ital@1 & family= Nunito:wght@500 & family= Outfit:wght@500;600 & display=swap' );
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: #F6F9EE;
+    height: 100vh;
+  }
+  
+h1{
+    color: #00000083;
+    font-size: 7vh;
+    margin-left: 83vw;
+}
+
+header{
+  background-color: #c1d299;
+  height: 12vh;
+  display: flex;
+  justify-content:flex-end;
+  
+}
+
+#perfil{
+  margin-right: 4vw;
+  border-radius: 100%;
+  height: 6vh;
+  margin-top: 3vh;
+}
+
+#logo{
+  margin-right: 38vw;
+  height: 10vh;
+  margin-top: 0.5vh;
+}
+
+#seta{
+  width: 5%;
+  margin-left: 0;
+  margin-right: 80%;
+  margin-top: 5%;
+}
+h1 {
+  color: #333;
+  margin-left: 82vh;
+  margin-top: 8vh;
+}
+
+footer{
+  text-align: center;
+  background-color: #c1d299;
+}
+
+p span{
+  font-size: 8vh;
+    cursor: pointer;
+    color: #97cf8f;
+    width: 3vw;
+    height: 1vh;
+    display: inline-block;
+    line-height: 5vh;
+    text-align: center;
+    justify-content: center;
+    margin-left: 69vh;
+    border-radius: 3vh;
+}
+section{
+  width: 89vw;
+  height: 92vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+}
+section::-webkit-scrollbar{
+  display: none;
+}
+section .product{
+  min-width: 17vw;
+  height: 55vh;
+  margin:  0 5vh  0 0;
+  border-radius: 5vh;
+  position: relative;
+  left: 0;
+  transition: 0.5s;
+}
+picture{
+  width: 19vw;
+  padding: 3vh;
+  display: flex;
+  overflow: hidden;
+  margin-bottom: 2vh;
+}
+picture img{
+  width: 100%;
+}
+
+.product a{
+  text-decoration: none;
+  padding: 2vh 2vh;
+  font-size: 2vh;
+  border-radius: 2vh;
+  margin: 0 0 0 13vh;
+  display: inline-block;
+  background: #8dc487;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.product a:hover{
+  background-color: rgb(96, 165, 96);
+  transition: 0.5s;
+}
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.close {
+  position: absolute;
+  top: 5vh;
+  right: 5vh;
+  font-size: 5vh;
+  cursor: pointer;
+  color: #151515;
+}
+
+.close:hover {
+  color: #000;
+}
+
+.amazon {
+  display: block;
+  margin-top: 10px;
+  background-color: #eec07b; 
+  color: #fff; 
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.amazon:hover {
+    background-color: #FFA500; 
+    transform: scale(1.05); 
+}
+
+.amazon:focus {
+    outline: none;
+}
+
+h3 {
+  font-size: 3vh;
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #385439;
+}
+
+.modal-content {
+  animation: fadeIn 0.4s;
+}
+.modal-content .livroo{
+  height: 20vh;
+  margin-left: 37vh;
+}
+.modal-content .amazon{
+  height: 10vh;
+}
+.modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 20px;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  position: relative;
+  max-height: 70%;
+  overflow-y: auto; 
+}
+
+

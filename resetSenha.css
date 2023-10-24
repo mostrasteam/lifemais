@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada:ital@1&family=Outfit:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 11vh;
+}
+
+.logo {
+    width: 80vh;
+    background-color: #F6F9EE;
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card {
+    background-color: #F6F9EE;
+    padding: 7vh;
+    height: 60vh;
+    width: 50vh;
+}
+
+@media(max-width: 574px) {
+    h1 {
+        margin-top: 10vh;
+    }
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5vh;
+    color: #88B071;
+}
+
+.label-float input {
+    width: 100%;
+    padding: 1vh;
+    display: inline-block;
+    border: 0;
+    border-bottom: 1vh solid #daf3a03f;
+    background-color: transparent;
+    outline: none;
+    min-width: 10vh;
+    font-size: 100%;
+    transition: all .3s ease-out;
+    border-radius: 4vh;
+}
+
+.label-float {
+    position: relative;
+    padding-top: 2vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-top: 5vh;
+}
+
+#lf{
+    position: relative;
+    padding-top: 2vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-top: 1vh;
+}
+
+.label-float label {
+    color: #32551D;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 2vh;
+    transition: all .3s ease-out;
+}
+
+.label-float input:focus+label,
+.label-float input:valid+label {
+    font-size: 100%;
+    margin-top: 0;
+    color: #32551D;
+}
+
+.label-float i {
+    font-size: 3vh;
+    cursor: pointer;
+    position: absolute;
+    right: 3vh;
+    top: 2vh;
+    color: #88b185;
+}
+
+button {
+    background-color: transparent;
+    border-color: #32551D;
+    color: #717D56;
+    padding: 2vh;
+    font-weight: bold;
+    font-size: 2vh;
+    margin-top: 2vh;
+    border-radius: 1vh;
+    cursor: pointer;
+    outline: none;
+    transition: all .4s ease-out;
+}
+
+.button2 {
+    background-color: transparent;
+    border-color: #32551D;
+    color: #717D56;
+    padding: 1.5vh;
+    font-weight: bold;
+    font-size: 2vh;
+    margin-top: 0vh;
+    border-radius: 1vh;
+    cursor: pointer;
+    outline: none;
+    transition: all .4s ease-out;
+}
+
+button:hover {
+    background-color: #32551D;
+    color: #fff;
+}
+
+.justify-center {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+hr {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 60%;
+}
+
+.formas p {
+    color: #32551D;
+    font-size: 2vh;
+    text-align: center;
+    position: relative;
+}
+
+a {
+    color: #353535;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .3s ease-out;
+    margin-top: -2vh;
+}
+
+a:hover {
+    color: #32551D;
+}
+
+#error-message {
+    background-color: #ffcccc;
+    color: #a70000;
+    padding: 10px;
+    border: 1px solid #990000;
+    display: none;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+    border-radius: 5px;
+    background-color: #ffcccc;
+    color: #a70000;
+    padding: 10px;
+    border: 1px solid #990000;
+    display: none;
+    text-align: center;
+    font-size: 13px;
+}
+
+#olho {
+    position: absolute;
+    top: 3vh;
+    right: 2vh;
+    cursor: pointer;
+    color: #32551D;
+}
+
+#eyes {
+    position: absolute;
+    top: 3vh;
+    right: 2vh;
+    cursor: pointer;
+    color: #32551D;
+}
+
+@media(max-width: 500px) {
+    .logo {
+        display: none;
+    }
+}

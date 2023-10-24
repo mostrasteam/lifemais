@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resetSenha.css">
+    <script src="resetSenha.js"></script>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <title>Recuperação de Senha</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img class="img" src="logosemfundo.png">
+        </div>
+        
+        <div class="card">
+            <h1>Recuperação de senha</h1> <br>
+            <form id="recovery-form">
+                <div class="label-float">
+                    <input type="email" id="email" name="email" required />
+                    <label id="emailLabel" for="email">Email:</label> 
+                    <button type="submit" onclick="enviar()">Recuperar senha</button>
+                </div> 
+            </form>
+
+            <div id="error-message" class="hidden">O email inserido não foi encontrado!</div> <br>
+
+            <div class="formas">
+                <p>
+                    Lembrou a senha? <a href="login.html">Fazer Login</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<!--<a href="mailto:miguelneto3107@gmail.com?subject=Recuperação de Senha&body=Olá, gostaria de redefinir minha senha."><button type="submit">Enviar Email de Recuperação</button></a>-->
